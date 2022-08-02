@@ -1,3 +1,10 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background: #eee;
   font-family: sans-serif;
@@ -7,21 +14,41 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 8px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .title {
   background: #e3f4ff;
+  font-size: 16px;
+  padding: 8px;
 }
 
 .content {
   background: #e3f4ff;
+  padding: 16px 8px;
 }
 
 .button-container {
   background: #e3f4ff;
+  align-self: center;
+  padding: 8px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  width: 384px;
 }
 
 button {
+  display: block;
   background: white;
   border: 1px solid #eee;
+  padding: 8px 24px;
 }
