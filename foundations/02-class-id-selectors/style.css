@@ -1,0 +1,19 @@
+.class-p {
+  background-color: rgb(241, 184, 192);
+  font-family: Verdana, 'Dejavu Sans', sans-serif;
+}
+
+#id-one {
+  color: blue;
+  font-size: 36px;
+}
+
+.odd {
+  font-size: 24px;
+}
+
+#id-another {
+  background-color: hsl(120, 73%, 75%);;
+  font-size: 24px;
+  font-weight: bold;
+}
